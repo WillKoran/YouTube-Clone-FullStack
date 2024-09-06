@@ -1,0 +1,21 @@
+.uploadInPut {
+    display: none; /* Hides the default input */
+}
+
+.uploadButton {
+    display: flex; /* Use Flexbox to center the text */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text veritcally */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; /* make it a circle */
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 0.4em;
+}
+
+.uploadButton:hover {
+    background-color: rgb(230, 230, 230);
+}
